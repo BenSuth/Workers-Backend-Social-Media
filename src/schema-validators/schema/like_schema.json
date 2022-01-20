@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "index": {"type": "number"},
+        "likes": {"type": "number"}
+    },
+    "required": ["index", "likes"],
+    "additionalProperties": false
+}

@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "index": {"type": "number"},
+        "title": {"type": "string"},
+        "username": {"type": "string"},
+        "content": {"type": "string"},
+        "img": {"type": "string"},
+        "link": {"type": "string"}
+    },
+    "required": ["title", "username", "content"],
+    "additionalProperties": false
+}
